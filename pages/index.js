@@ -34,7 +34,7 @@ export default function Home() {
             <p className='mr-[34px] leading-[21px] font-bold'>Let's dance 💃</p>
           </div>
         </div>
-      </div>
+      </d
       {/* <div className='pb-[60px] pt-[70px]'>
         <div className='px-[30px] mx-[auto]'>
           <img src="background1.jpg"/>
@@ -337,7 +337,7 @@ export default function Home() {
           </div>        
         </div>
         <div>
-          <h3 className='mt-[25px] text-[22px] font-bold lg:mt-[0px]'>Let's dance</h3>
+          <h3 className='mt-[25px] text-[22px] font-bold lg:mt-[0px]'>Lets dance</h3>
           <div className='my-[25px] '>
             <p>hello@30hills.com</p>
             <p>00 381 69 667 887</p>
