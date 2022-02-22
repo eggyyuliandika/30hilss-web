@@ -636,7 +636,7 @@ export default function Home() {
           <div className='max-w-[1124px]'>
             <div>
               <div className='md:grid grid-cols-2 gap-x-[30px] '>
-                <div className='mb-[30px] border-2 border-solid border-[#f5f5f7] rounded-[10px] h-[410px] hover:shadow-[0_10px_20px_0_#e8e8ec] md:max-h-[375px]'>
+                <div className='mb-[30px] border-2 border-solid border-[#f5f5f7] rounded-[10px] h-[410px] hover:shadow-[0_10px_20px_0_#e8e8ec] hover:duration-300 md:max-h-[375px]'>
                   <div className="bg-cover rounded-t-lg bg-[url('/portofolio1.png')] h-[240px] w-[100%]">
                     <div className='text-center pt-[255px] px-[25px] '>
                       <h3 className='mb-[10px] text-[22px] font-bold'>Ticketmaster</h3>
@@ -645,7 +645,7 @@ export default function Home() {
                     </div>
                   </div>
                 </div>
-                <div className='mb-[30px] border-2 border-solid border-[#f5f5f7] rounded-[10px] h-[410px] hover:shadow-[0_10px_20px_0_#e8e8ec] md:max-h-[375px]'>
+                <div className='mb-[30px] border-2 border-solid border-[#f5f5f7] rounded-[10px] h-[410px] hover:shadow-[0_10px_20px_0_#e8e8ec] md:max-h-[375px] hover:duration-300'>
                   <div className="bg-cover rounded-t-lg bg-[url('/portofolio2.png')] h-[240px] w-[100%]">
                     <div className='text-center pt-[255px] px-[25px]'>
                       <h3 className='mb-[10px] text-[22px] font-bold'>OTP bank Serbia</h3>
@@ -653,7 +653,7 @@ export default function Home() {
                     </div>
                   </div>
                 </div>
-                <div className='mb-[30px] border-2 border-solid border-[#f5f5f7] rounded-[10px] h-[410px] hover:shadow-[0_10px_20px_0_#e8e8ec] md:max-h-[375px]'>
+                <div className='mb-[30px] border-2 border-solid border-[#f5f5f7] rounded-[10px] h-[410px] hover:shadow-[0_10px_20px_0_#e8e8ec] hover:duration-300 md:max-h-[375px]'>
                   <div className="bg-cover rounded-t-lg bg-[url('/portofolio3.png')] h-[240px] w-[100%]">
                     <div className='text-center pt-[255px] px-[25px]'>
                       <h3 className='mb-[10px] text-[22px] font-bold'>Boostowski</h3>
@@ -661,7 +661,7 @@ export default function Home() {
                     </div>
                   </div>
                 </div>
-                <div className='mb-[30px] border-2 border-solid border-[#f5f5f7] rounded-[10px] h-[410px] hover:shadow-[0_10px_20px_0_#e8e8ec] md:max-h-[375px]'>
+                <div className='mb-[30px] border-2 border-solid border-[#f5f5f7] rounded-[10px] h-[410px] hover:shadow-[0_10px_20px_0_#e8e8ec] hover:duration-300 md:max-h-[375px]'>
                   <div className="bg-cover rounded-t-lg bg-[url('/portofolio4.png')] h-[240px] w-[100%]">
                     <div className='text-center pt-[255px] px-[25px]'>
                       <h3 className='mb-[10px] text-[22px] font-bold'>PwC Harmonie</h3>
