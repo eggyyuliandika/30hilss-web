@@ -7,18 +7,18 @@ import styles from '../styles/Home.module.css'
 export default function Home() {
   return (
     <div>
-      <div className='lg:flex justify-between mx-[24px] px-[15px]'>
+      <div className='lg:flex justify-between mx-[24px] px-[15px] '>
        <div className=' p-[15px] pl-[8px] mt-[32px]'>
         <img src="logo.svg" />
        </div> 
-       {/* <div className='lg:flex pt-[40px] text-[15px] gap-[13px] font-semibold sm:hidden'>
+       <div className='lg:flex pt-[40px] text-[15px] gap-[13px] font-semibold sm:hidden'>
          <p className='mr-[7px]'> Who we are </p>
          <p className='mr-[10px]'>Process & Focus</p>
          <p className=''>Our Work</p>
          <p className='mr-[8px]'>Tech Stack</p>
          <p className='mr-[9px]'>Career</p>
          <p className='mr-[13px]'>Lets dance 💃</p>
-       </div> */}
+       </div>
       </div>
        {/* <div className='px-[15px] mx-[auto]'>
         <div className='flex flex-wrap justify-between min-h-[100px] mx-[-15px] items-center'>
@@ -34,13 +34,13 @@ export default function Home() {
             <p className='mr-[34px] leading-[21px] font-bold'>Let's dance 💃</p>
           </div>
         </div>
-      </d
-      {/* <div className='pb-[60px] pt-[70px]'>
+      </div> */}
+      <div className='pb-[60px] pt-[70px] '>
         <div className='px-[30px] mx-[auto]'>
           <img src="background1.jpg"/>
         </div>
-      </div> */}
-      <div className='py-[60px]'>
+      </div>
+      <div className='py-[60px] lg:hidden'>
         <div className='px-[15px] mx-[auto] w-[100%]'>        
             <img src="background.jpg"/>      
         </div>
