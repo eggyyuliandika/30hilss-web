@@ -7,11 +7,11 @@ import styles from '../styles/Home.module.css'
 export default function Home() {
   return (
     <div>
-      <div className='lg:flex justify-between mx-[24px] px-[15px] '>
-       <div className=' p-[15px] pl-[8px] mt-[32px]'>
+      <div className='mx-[24px] px-[15px] lg:flex justify-between px-[130px] items-center  '>
+       <div className='  pl-[8px] mt-[32px]'>
         <img src="logo.svg" />
        </div> 
-       <div className='lg:flex pt-[40px] text-[15px] gap-[13px] font-semibold sm:hidden'>
+       <div className='lg:flex pt-[30px] text-[15px] gap-[13px] font-semibold sm:hidden'>
          <p className='mr-[7px]'> Who we are </p>
          <p className='mr-[10px]'>Process & Focus</p>
          <p className=''>Our Work</p>
@@ -35,23 +35,23 @@ export default function Home() {
           </div>
         </div>
       </div> */}
-      <div className='pb-[60px] pt-[70px] '>
+      <div className='pb-[60px] pt-[90px] px-[180px]'>
         <div className='px-[30px] mx-[auto]'>
           <img src="background1.jpg"/>
         </div>
       </div>
-      <div className='py-[60px] lg:hidden'>
+      <div className='py-[60px] lg:hidden '>
         <div className='px-[15px] mx-[auto] w-[100%]'>        
             <img src="background.jpg"/>      
         </div>
       </div> 
        
-      <div className='py-[70px] text-[#242629]'>
+      <div className='py-[70px] text-[#242629] lg:px-[130px]'>
         <div className='px-[15px]'>
           <div className='text-center'>
-            <h1 className='leading-none text-[43px] font-[900] mb-[50px] lg:text-[66px]'>We are a Digital Product Studio</h1>
+            <h1 className='leading-none text-[43px] font-[900] mb-[50px] lg:text-[66px] indent-[80px]'>We are a Digital Product Studio</h1>
           </div>
-          <div className='md:grid grid-cols-3  lg:grid grid-cols-3 px-[30px] gap-5'>
+          <div className='md:grid grid-cols-3  lg:grid grid-cols-3 px-[30px] gap-[4.5]'>
            <div className='font-semibold text-[15px] leading-[1.5] '>
             <p>We work as a unified entity where each member makes each project unique. We are a team of like
             minded people passionate about the product, web and mobile technology, but most importantly -
@@ -77,11 +77,11 @@ export default function Home() {
           
         </div>
       </div>
-      <div className='pt-[110px] pb-[60px] lg:pt-[36px] px-[30px]'>
+      <div className='pt-[110px] pb-[60px] lg:pt-[36px] px-[130px]'>
         <div>
           <h1 className='text-[#242529] px-[15px] text-[46px] mb-[40px] font-[900] text-center lg:text-[66px]'>Our Process</h1>
         </div>
-        <div className='md:grid grid-cols-2 xl:grid grid-cols-3'>
+        <div className='md:grid grid-cols-3'>
          <div>
           <div className='px-[15px] mb-[50px]'>
             <div>
@@ -185,11 +185,11 @@ export default function Home() {
         </div>
         
       </div>
-      <div className='py-[60px] lg:px-[30px]'>
+      <div className='py-[60px] lg:px-[130px]'>
         <div>
           <h1 className='text-[#242529] px-[15px] text-[46px] mb-[50px] font-[900] text-center lg:text-[66px]'>Our Focus</h1>
         </div>
-        <div className='md:grid grid-cols-2 xl:grid grid-cols-3'>
+        <div className='md:grid grid-cols-3 '>
           <div>
             <div className='px-[15px] mb-[50px]'>
               <div>
@@ -283,7 +283,7 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className='py-[60px] px-[15px] lg:px-[45px]'>
+      <div className='py-[60px] px-[15px] lg:px-[130px]'>
         <div className='md:grid grid-cols-2 gap-[30px] lg:grid grid-cols-2'>
           <div className='mb-[30px] border-2 border-solid border-[#f5f5f7] rounded-[10px] h-[410px] shadow-[0_10px_20px_0_#e8e8ec]'>
             <div className="bg-cover rounded-t-lg bg-[url('/portofolio1.png')] h-[240px] w-[100%]">
@@ -324,11 +324,11 @@ export default function Home() {
         <div className='mb-[50px]'>
           <h1 className='text-center text-[46px] font-[900] lg:text-[66px]'>Our Tech Stack</h1>
         </div>
-        <div className='lg:max-w[100%] lg:ml-[270px]'>
+        <div className='lg:max-w[100%] lg:ml-[450px]'>
           <img src='footer.svg'/>
         </div>
       </div>
-      <div className='py-[60px] px-[15px] lg:grid grid-cols-4 gap-4 px-[50px] my-[17px]'>
+      <div className='py-[60px] px-[15px] lg:grid grid-cols-4 gap-4 px-[130px] my-[17px]'>
         <div>
           <img src="logo.svg" className='w-[72px] h-[22px] lg:mt-[6px]'/>
           <div className='my-[25px]'>
