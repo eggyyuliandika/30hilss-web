@@ -362,7 +362,7 @@ export default function Home() {
         </div>    
       </div>
       <div className='hidden md:inline'>
-        <div className='pt-[90px] pb-[60px] '>
+        <div className='md:py-[60px] '>
           <div className='max-w-[100%]'>
             <div className='flex justify-center'>
               <img className="w-[1030px]" src="background1.jpg"/>
@@ -371,19 +371,19 @@ export default function Home() {
         </div> 
       </div>
       
-      <div className='pb-[60px] pt-[105px]  '>
+      <div className='pb-[60px] pt-[105px] md:hidden  '>
         <div className=' w-[100%]'>        
             <img src="background.jpg"/>      
         </div>
       </div> 
 
-      <div className='max-w-[100%] py-[60px]'>
+      <div className='max-w-[100%] py-[60px] '>
         <div className='flex justify-center'>
           <div className='md:max-w-[1124px]'>
             <div className='text-[#242629] '>
               <div className='px-[15px]'>
                 <div className='text-center'>
-                  <h1 className='text-[43px] font-[900] mb-[50px] md:text-[66px] md:indent-[40px]'>We are a Digital Product Studio</h1>
+                  <h1 className='text-[43px] font-[900] mb-[50px] md:text-[66px]'>We are a Digital Product Studio</h1>
                 </div>
                 <div className='md:grid grid-cols-3 gap-[40px] '>
                   <div className='font-bold text-[15px] leading-[1.5] '>
