@@ -340,7 +340,7 @@ export default function Home() {
       </div>  */}
 
 
-      {/* dekstop */}
+      {/* mobile */}
 
       <div className='px-[8px] max-w-[100%]'>
         <div className='md: flex justify-center'>
@@ -383,30 +383,30 @@ export default function Home() {
             <div className='text-[#242629] '>
               <div className='px-[15px]'>
                 <div className='text-center'>
-                  <h1 className='leading-none text-[44px] font-[900] mb-[50px] md:text-[66px] indent-[40px]'>We are a Digital Product Studio</h1>
+                  <h1 className='text-[43px] font-[900] mb-[50px] md:text-[66px] md:indent-[40px]'>We are a Digital Product Studio</h1>
                 </div>
-                <div className='md:grid grid-cols-3 gap-[40px]  '>
-                <div className='font-bold text-[14px] leading-[1.5] '>
-                  <p>We work as a unified entity where each member makes each project unique. We are a team of like
-                  minded people passionate about the product, web and mobile technology, but most importantly -
-                  delivering results.
-                  </p>
-                </div>
-                <div className='text-[14px] leading-[1.5]'>
-                  <p>
-                  Our interdisciplinary team consist of product developers, software engineers, UI/UX designers,
-                  mathematicians, cognitive scientists and linguists. We are educated at universities around the globe
-                  (New York, Vienna, Granada, Milan, Belgrade).
-                  </p>
-                </div>
-                <div className='text-[14px] leading-[1.5] pr-[20px]'>
-                  <p>
-                  However, team spirit and personal engagement is what we
-                  value most. Therefore, our team members are not only nerds, but people who run marathons, dance,
-                  play basketball and participate in the Olympic games.
-                  </p>
-                </div>  
-              </div>     
+                <div className='md:grid grid-cols-3 gap-[40px] '>
+                  <div className='font-bold text-[15px] leading-[1.5] '>
+                    <p>We work as a unified entity where each member makes each project unique. We are a team of like
+                    minded people passionate about the product, web and mobile technology, but most importantly -
+                    delivering results.
+                    </p>
+                  </div>
+                  <div className='text-[15px] leading-[1.5]'>
+                    <p>
+                    Our interdisciplinary team consist of product developers, software engineers, UI/UX designers,
+                    mathematicians, cognitive scientists and linguists. We are educated at universities around the globe
+                    (New York, Vienna, Granada, Milan, Belgrade).
+                    </p>
+                  </div>
+                  <div className='text-[15px] leading-[1.5] pr-[20px]'>
+                    <p>
+                    However, team spirit and personal engagement is what we
+                    value most. Therefore, our team members are not only nerds, but people who run marathons, dance,
+                    play basketball and participate in the Olympic games.
+                    </p>
+                  </div>  
+                </div>     
               </div>
             </div>
           </div>
@@ -421,106 +421,107 @@ export default function Home() {
                 <h1 className='text-[#242529] px-[15px] text-[46px] mb-[40px] font-[900] text-center md:text-[66px]'>Our Process</h1>
               </div>
               <div className='md:grid grid-cols-3'>
-              <div>
-                <div className='px-[15px] mb-[50px]'>
-                  <div>
-                    <img className='mx-[auto] my-[0]' src="process1.svg"/>
-                  </div>
-                  <div>
-                    <h3 className='text-center mt-[14px] mb-[25px] text-[22px] font-bold'>Understand</h3>
-                  </div>
-                  <div>
-                    <p className='text-center leading-[1.50] text-[#717982] text-[15px]'>
-                      We make sure we understand your ideas before we make them come true. We believe having
-                      strategy and
-                      plan is a key to success. Plan exists to be changed and improved by our joint teams.
-                    </p>
+                <div>
+                  <div className='px-[15px] mb-[50px]'>
+                    <div>
+                      <img className='mx-[auto] my-[0]' src="process1.svg"/>
+                    </div>
+                    <div>
+                      <h3 className='text-center mt-[14px] mb-[25px] text-[22px] font-bold'>Understand</h3>
+                    </div>
+                    <div>
+                      <p className='text-center leading-[1.50] text-[#717982] text-[15px]'>
+                        We make sure we understand your ideas before we make them come true. We believe having
+                        strategy and
+                        plan is a key to success. Plan exists to be changed and improved by our joint teams.
+                      </p>
+                    </div>
                   </div>
                 </div>
+                <div>
+                  <div className='px-[15px] mb-[50px]'>
+                    <div>
+                      <img className='mx-[auto] my-[0]' src="process2.svg"/>
+                    </div>
+                    <div>
+                      <h3 className='text-center mt-[14px] mb-[25px] text-[22px] font-bold'>Design</h3>
+                    </div>
+                    <div>
+                      <p className='text-center leading-[1.50] text-[#717982] text-[15px]'>           
+                        Our designers combine art, research and digital strategy but are primarily dedicated to
+                        ultimate user experience (UX). We put emphases on human experience to create the most memorable and
+                        beautiful
+                        product.      
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div>
+                  <div className='px-[15px] mb-[50px]'>
+                    <div>
+                      <img className='mx-[auto] my-[0]' src="process3.svg"/>
+                    </div>
+                    <div>
+                      <h3 className='text-center mt-[14px] mb-[25px] text-[22px] font-bold'>Create</h3>
+                    </div>
+                    <div>
+                      <p className='text-center leading-[1.50] text-[#717982] text-[15px]'>      
+                        We offer the right mix of smart, creative backend, frontend and mobile developers who work
+                        together to
+                        make it simple and beautiful. We relay on Agile with Scrum to manage development and
+                        mitigate risk.      
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div>
+                  <div className='px-[15px] mb-[50px]'>
+                    <div>
+                      <img className='mx-[auto] my-[0]' src="process4.svg"/>
+                    </div>
+                    <div>
+                      <h3 className='text-center mt-[14px] mb-[25px] text-[22px] font-bold'>Test</h3>
+                    </div>
+                    <div>
+                      <p className='text-center leading-[1.50] text-[#717982] text-[15px]'>          
+                        We believe that quality assurance testing (QA) is essential part of product development. This is why
+                        we constantly test and make improvements.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div>
+                  <div className='px-[15px] mb-[50px]'>
+                    <div>
+                      <img className='mx-[auto] my-[0]' src="process5.svg"/>
+                    </div>
+                    <div>
+                      <h3 className='text-center mt-[14px] mb-[25px] text-[22px] font-bold'>Support</h3>
+                    </div>
+                    <div>
+                      <p className='text-center leading-[1.50] text-[#717982] text-[15px]'>         
+                        We stay by your side to stimulate growth, implement changes and add improvements.      
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div>
+                  <div className='px-[15px] mb-[50px]'>
+                    <div>
+                      <img className='mx-[auto] my-[0]' src="process6.svg"/>
+                    </div>
+                    <div>
+                      <h3 className='text-center mt-[14px] mb-[25px] text-[22px] font-bold'>Innovate</h3>
+                    </div>
+                    <div>
+                      <p className='text-center leading-[1.50] text-[#717982] text-[15px]'>
+                        We live in an era of information and innovation. We help you follow your audience and social
+                      trends to stay on the top of the hill.
+                      </p>
+                    </div>
+                  </div>
+                </div>  
               </div>
-              <div>
-                <div className='px-[15px] mb-[50px]'>
-                  <div>
-                    <img className='mx-[auto] my-[0]' src="process2.svg"/>
-                  </div>
-                  <div>
-                    <h3 className='text-center mt-[14px] mb-[25px] text-[22px] font-bold'>Design</h3>
-                  </div>
-                  <div>
-                    <p className='text-center leading-[1.50] text-[#717982] text-[15px]'>           
-                      Our designers combine art, research and digital strategy but are primarily dedicated to
-                      ultimate user experience (UX). We put emphases on human experience to create the most memorable and
-                      beautiful
-                      product.      
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div>
-                <div className='px-[15px] mb-[50px]'>
-                  <div>
-                    <img className='mx-[auto] my-[0]' src="process3.svg"/>
-                  </div>
-                  <div>
-                    <h3 className='text-center mt-[14px] mb-[25px] text-[22px] font-bold'>Create</h3>
-                  </div>
-                  <div>
-                    <p className='text-center leading-[1.50] text-[#717982] text-[15px]'>      
-                      We offer the right mix of smart, creative backend, frontend and mobile developers who work
-                      together to
-                      make it simple and beautiful. We relay on Agile with Scrum to manage development and
-                      mitigate risk.      
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div>
-                <div className='px-[15px] mb-[50px]'>
-                  <div>
-                    <img className='mx-[auto] my-[0]' src="process4.svg"/>
-                  </div>
-                  <div>
-                    <h3 className='text-center mt-[14px] mb-[25px] text-[22px] font-bold'>Test</h3>
-                  </div>
-                  <div>
-                    <p className='text-center leading-[1.50] text-[#717982] text-[15px]'>          
-                      We believe that quality assurance testing (QA) is essential part of product development. This is why
-                      we constantly test and make improvements.
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div>
-                <div className='px-[15px] mb-[50px]'>
-                  <div>
-                    <img className='mx-[auto] my-[0]' src="process5.svg"/>
-                  </div>
-                  <div>
-                    <h3 className='text-center mt-[14px] mb-[25px] text-[22px] font-bold'>Support</h3>
-                  </div>
-                  <div>
-                    <p className='text-center leading-[1.50] text-[#717982] text-[15px]'>         
-                      We stay by your side to stimulate growth, implement changes and add improvements.      
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div>
-                <div className='px-[15px] mb-[50px]'>
-                  <div>
-                    <img className='mx-[auto] my-[0]' src="process6.svg"/>
-                  </div>
-                  <div>
-                    <h3 className='text-center mt-[14px] mb-[25px] text-[22px] font-bold'>Innovate</h3>
-                  </div>
-                  <div>
-                    <p className='text-center leading-[1.50] text-[#717982] text-[15px]'>
-                      We live in an era of information and innovation. We help you follow your audience and social
-                    trends to stay on the top of the hill.
-                    </p>
-                  </div>
-                </div>
-              </div>  
             </div>
           </div>
         </div>
@@ -730,10 +731,8 @@ export default function Home() {
           </div>
         </div>
       </div>
-        
-      
-    </div> 
-  </div>   
+     </div> 
+   
         
       
   )
